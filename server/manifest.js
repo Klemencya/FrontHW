@@ -1,13 +1,13 @@
 const manifest = {
 	appDir: "_app",
-	appPath: "_app",
+	appPath: "FrontHW/_app",
 	assets: new Set([".nojekyll","me.jpg","me2.jpg"]),
 	mimeTypes: {".jpg":"image/jpeg"},
 	_: {
-		client: {"start":{"file":"_app/immutable/entry/start.507b63ee.js","imports":["_app/immutable/entry/start.507b63ee.js","_app/immutable/chunks/index.0da420e6.js","_app/immutable/chunks/singletons.a4133a62.js"],"stylesheets":[],"fonts":[]},"app":{"file":"_app/immutable/entry/app.bbcf5797.js","imports":["_app/immutable/entry/app.bbcf5797.js","_app/immutable/chunks/index.0da420e6.js"],"stylesheets":[],"fonts":[]}},
+		client: {"start":{"file":"_app/immutable/entry/start.ad143f2f.js","imports":["_app/immutable/entry/start.ad143f2f.js","_app/immutable/chunks/index.0da420e6.js","_app/immutable/chunks/singletons.8215bbc2.js"],"stylesheets":[],"fonts":[]},"app":{"file":"_app/immutable/entry/app.413e668d.js","imports":["_app/immutable/entry/app.413e668d.js","_app/immutable/chunks/index.0da420e6.js"],"stylesheets":[],"fonts":[]}},
 		nodes: [
 			() => import('./chunks/0-01f3ce19.js'),
-			() => import('./chunks/1-044d9e19.js'),
+			() => import('./chunks/1-0ac5672b.js'),
 			() => import('./chunks/2-92b40fdb.js'),
 			() => import('./chunks/3-ebe4cc7b.js'),
 			() => import('./chunks/4-c9bacc93.js'),

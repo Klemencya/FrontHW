@@ -1,6 +1,6 @@
 import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component, n as noop, a as safe_not_equal } from './chunks/index-41dea004.js';
 
-let base = "";
+let base = "/FrontHW";
 let assets = base;
 const initial = { base, assets };
 function reset() {
@@ -149,7 +149,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "t8h8wj"
+  version_hash: "1lyxuwk"
 };
 function get_hooks() {
   return {};
