@@ -13,17 +13,19 @@ jobs:
     name: Build and Deploy to GH Pages
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout 🛎️
         uses: actions/checkout@v3
-      - name: Setup Node.js v16
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-      - name: Install dependencies
-        run: npm ci
-      - name: Build website
-        run: npm run build
-      - name: Deploy to GitHub Page
+
+#      - name: Setup Node.js v16
+#        uses: actions/setup-node@v3
+#        with:
+#          node-version: '16'
+      - name: Install and Build 🔧
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
