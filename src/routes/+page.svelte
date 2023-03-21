@@ -1,11 +1,15 @@
+<script>
+    import {base} from "$app/paths";
+</script>
+
 <main>
     <div class="bio+photo">
-        <a href="/joke" class="child">Joke</a>
-        <a href="/bio" class="child">Bio</a>
+        <a href="{base}/joke" class="child">Joke</a>
+        <a href="{base}/bio" class="child">Bio</a>
     </div>
 
     <div class="bio+photo">
-        <a href="/projects" class="child">Projects</a>
+        <a href="{base}/projects" class="child">Projects</a>
 <!--        <div class="child"><img src="assets/me2.jpg" alt="Black and white photo of me"></div>-->
     </div>
 </main>
