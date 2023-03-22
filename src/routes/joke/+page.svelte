@@ -12,7 +12,7 @@
         joke_title = value.title;
         joke_alt = value.alt;
         joke_img = value.img;
-        joke_date = new Date(value.year, value.month - 1, value.day).toLocaleDateString();
+        joke_date = new Date(+value.year, +value.month - 1, +value.day).toLocaleDateString();
     }));
 
 

@@ -1,16 +1,16 @@
 <script lang="ts">
     import {base} from "$app/paths";
+    let email = "m.sidorskaya@innopolis.university"
 </script>
 
 <main>
     <div class="bio+photo">
-        <a href="{base}/joke" class="child">Joke</a>
+        <a href="{base}/joke/?email={email}" class="child">Joke</a>
         <a href="{base}/bio" class="child">Bio</a>
     </div>
 
     <div class="bio+photo">
         <a href="{base}/projects" class="child">Projects</a>
-<!--        <div class="child"><img src="assets/me2.jpg" alt="Black and white photo of me"></div>-->
     </div>
 </main>
 
